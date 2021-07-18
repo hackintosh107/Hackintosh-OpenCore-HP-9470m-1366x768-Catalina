@@ -19,6 +19,10 @@ OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 * OpenCore: 0.7.1
 * macOS: 10.15 (Catalina)
 
+# BIOS settings:
+* Boot mode: UEFI Hybrid
+* SATA mode: AHCI
+
 # Working:
 - [x] Intel HD Graphics 4000
 - [x] Sleep
@@ -28,8 +32,7 @@ OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 - [x] Touchpad (with multi gestures)
 - [x] Battery indicator
 - [x] Ethernet
-- [x] Wi-Fi
-- [x] AirDrop
+- [x] Wi-Fi (using with HeliPort)
 - [x] Bluetooth
 - [x] Sidecar
 - [x] CPU power management
@@ -42,6 +45,9 @@ OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 # Not test:
 * DisplayPort external port
 * D-Sub external port
+
+# Download HeliPort:
+https://github.com/OpenIntelWireless/HeliPort/releases
 
 # SMBIOS:
 iMac16,1
